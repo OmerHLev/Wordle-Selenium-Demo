@@ -12,6 +12,13 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 class TestFrontPage(BaseTestClass):
 
-    def test_all_games_present(self, setup):
+    def test_all_games_present_in_dashboard(self, setup):
         games_list = self.driver.find_elements(By.CSS_SELECTOR, ".hub-game-card__cover")
-        assert len(games_list) == 7
+        assert len(games_list) == 7 , "There are 7 Games in the page"
+
+    def test_all_buttons_present_in_menu(self, setup):
+        self.driver.find_element(By.ID,"js-nav-burger").click()
+        menu_button_list = self.driver.find_elements(By.CSS_SELECTOR,".js-nav-tracker.pz-nav-drawer__link")
+        assert len(menu_button_list) == 16 , "There are 16 buttons in the menu dropdown"
+
+
