@@ -4,3 +4,13 @@
 2024-02-04 10:39:22,646 :DEBUG :utilities.BaseTestClass :Does the logger work correctly?
 2024-02-04 10:40:11,610: DEBUG: utilities.BaseTestClass: Does the logger work correctly?
 2024-02-04 10:44:26,316: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
+2024-02-04 10:47:27,759: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
+2024-02-04 10:48:43,949: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
+2024-02-04 12:38:07,668: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
+2024-02-04 12:39:16,010: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
+2024-02-04 12:39:51,762: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
+2024-02-04 12:40:23,870: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
+2024-02-04 12:41:52,239: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
+2024-02-04 12:44:46,180: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
+2024-02-04 12:45:01,886: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
+2024-02-04 12:51:01,117: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
