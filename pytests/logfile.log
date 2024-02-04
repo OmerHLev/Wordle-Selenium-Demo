@@ -3,3 +3,4 @@
 2024-02-04 10:19:48,858 :DEBUG :pytests.conftest :Does the logger work correctly?
 2024-02-04 10:39:22,646 :DEBUG :utilities.BaseTestClass :Does the logger work correctly?
 2024-02-04 10:40:11,610: DEBUG: utilities.BaseTestClass: Does the logger work correctly?
+2024-02-04 10:44:26,316: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
