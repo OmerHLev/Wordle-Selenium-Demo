@@ -8,13 +8,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 
 from selenium.webdriver.support.wait import WebDriverWait
-
+import logging
 
 class TestFrontPage(BaseTestClass):
 
     def test_all_games_present_in_dashboard(self, setup):
+        self.logger.debug("Does the logger work correctly?")
         games_list = self.driver.find_elements(By.CSS_SELECTOR, ".hub-game-card__cover")
         assert len(games_list) == 7, "There are 7 Games in the page"
+
 
     def test_all_buttons_present_in_menu(self, setup):
         self.driver.find_element(By.ID, "js-nav-burger").click()
