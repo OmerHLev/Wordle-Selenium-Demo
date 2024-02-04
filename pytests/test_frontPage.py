@@ -9,13 +9,14 @@ from selenium.webdriver.support import expected_conditions
 
 from selenium.webdriver.support.wait import WebDriverWait
 import logging
-
+from pageObjects.HomePage import HomePage
 class TestFrontPage(BaseTestClass):
 
     def test_all_games_present_in_dashboard(self, setup):
         logger = self.getLogger()
         logger.debug("Does the logger work correctly?")
-        games_list = self.driver.find_elements(By.CSS_SELECTOR, ".hub-game-card__cover")
+        homepage = HomePage(self.driver)
+        games_list = homepage.get_games_list()
         assert len(games_list) == 7, "There are 7 Games in the page"
 
 
