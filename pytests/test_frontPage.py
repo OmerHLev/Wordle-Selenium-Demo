@@ -13,7 +13,8 @@ import logging
 class TestFrontPage(BaseTestClass):
 
     def test_all_games_present_in_dashboard(self, setup):
-        self.logger.debug("Does the logger work correctly?")
+        logger = self.getLogger()
+        logger.debug("Does the logger work correctly?")
         games_list = self.driver.find_elements(By.CSS_SELECTOR, ".hub-game-card__cover")
         assert len(games_list) == 7, "There are 7 Games in the page"
 

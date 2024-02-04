@@ -22,18 +22,8 @@ def setup(request):
     driver.get("https://www.nytimes.com/crosswords")
     wait = WebDriverWait(driver, 10)
 
-    # IMPORTANT! Currently __name__ always refers to conftest, this needs to be fixed
-    logger = logging.getLogger(__name__)
-    filehandler = logging.FileHandler('logfile.log')
-    formatter = logging.Formatter("%(asctime)s :%(levelname)s :%(name)s :%(message)s")
-    filehandler.setFormatter(formatter)
-    logger.addHandler(filehandler)
-    logger.setLevel(logging.DEBUG)
-
-
     request.cls.driver = driver
     request.cls.wait = wait
-    request.cls.logger = logger
     yield
 
     driver.close()
