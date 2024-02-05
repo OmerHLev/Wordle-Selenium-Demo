@@ -13,11 +13,10 @@ from pageObjects.HomePage import HomePage
 class TestFrontPage(BaseTestClass):
 
     def test_all_games_present_in_dashboard(self, setup):
-        logger = self.getLogger()
-        logger.debug("Does the logger work correctly?")
+        #logger = self.getLogger()
+        #logger.debug("Does the logger work correctly?")
         homepage = HomePage(self.driver)
-        games_list = homepage.get_games_list()
-        assert len(games_list) == 7, "There are 7 Games in the page"
+        assert len(homepage.get_dashboard_games_list()) == 7, "There are 7 Games in the dashboard"
 
 
     def test_all_buttons_present_in_menu(self, setup):
@@ -38,8 +37,11 @@ class TestFrontPage(BaseTestClass):
 
 
 
-    #Compare names of the games in the menu tab to games in the dashboard
+    #Make sure the games in the dashboard tab also appear in the menu
 
 
 
     #Check Each button, and make sure it takes you to the correct page NOTE: Maybe do this in a different class
+
+
+    #Check button changes when hovering
