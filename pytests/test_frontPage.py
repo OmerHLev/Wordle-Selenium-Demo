@@ -16,7 +16,7 @@ class TestFrontPage(BaseTestClass):
         #logger = self.getLogger()
         #logger.debug("Does the logger work correctly?")
         homepage = HomePage(self.driver)
-        assert len(homepage.get_dashboard_games_list()) == 7, "There are 7 Games in the dashboard"
+        assert len(homepage.get_page_object(HomePage.dashboard_games_list)) == 7, "There are 7 Games in the dashboard"
 
 
     def test_all_buttons_present_in_menu(self, setup):

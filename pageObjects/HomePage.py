@@ -10,10 +10,9 @@ class HomePage:
     logo = (By.CSS_SELECTOR, ".pz-nav__logo")
     navigation_menu = (By.CSS_SELECTOR, ".pz-nav__hamburger-box")
     subscribe_buttons_list = (By.CSS_SELECTOR, ".pz-nav__button.default.js-nav-subscribe.pz-hide-sub")
-    # First one is in the dashboard
-    # seconed in the navigation collapsable menu
+                            # First one is in the dashboard, seconed in the navigation collapsable menu
     login_buttons_list = (By.CSS_SELECTOR, ".js-nav-login")  # First one is in the dashboard,
-    # seconed in the navigation collapsable menu
+                                                             # seconed in the navigation collapsable menu
     # NAVIGATION MENU
     navigation_menu_buttons_list = (By.CSS_SELECTOR, ".js-nav-tracker.pz-nav-drawer__link")
 
@@ -40,11 +39,8 @@ class HomePage:
     # I think these are unnecessary to add, but if in the future I want those tested too here would
     # be the place to add them
 
-    # Finish page objects
 
-    def get_dashboard_games_list(self):
-        return self.driver.find_elements(*HomePage.dashboard_games_list)
-
-    # Finish all get functions
+    def get_page_object(self, page_object_pathway):
+        return self.driver.find_elements(*page_object_pathway)
 
     # Create get page functions
