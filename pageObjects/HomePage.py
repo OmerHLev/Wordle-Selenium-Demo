@@ -1,10 +1,8 @@
 from selenium.webdriver.common.by import By
+from utilities.BasePageClass import BasePageClass
 
 
-class HomePage:
-
-    def __init__(self, driver):
-        self.driver = driver
+class HomePage(BasePageClass):
 
     # HEAD
     logo = (By.CSS_SELECTOR, ".pz-nav__logo")
@@ -39,8 +37,5 @@ class HomePage:
     # I think these are unnecessary to add, but if in the future I want those tested too here would
     # be the place to add them
 
-
-    def get_page_object(self, page_object_pathway):
-        return self.driver.find_elements(*page_object_pathway)
 
     # Create get page functions
