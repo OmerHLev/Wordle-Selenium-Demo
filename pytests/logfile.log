@@ -20,3 +20,4 @@
 2024-02-04 13:29:30,164: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
 2024-02-04 13:45:19,881: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
 2024-02-04 17:35:57,518: DEBUG: test_all_games_present_in_dashboard: Does the logger work correctly?
+2024-02-06 11:46:32,588: INFO: test_nyt_logo_present: https://www.nytimes.com/crosswords
