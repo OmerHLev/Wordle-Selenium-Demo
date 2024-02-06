@@ -1,14 +1,5 @@
-import pytest
-import time
 from utilities.BaseTestClass import BaseTestClass
-import pytest
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions
-
-from selenium.webdriver.support.wait import WebDriverWait
-import logging
 from pageObjects.HomePage import HomePage
 class TestFrontPage(BaseTestClass):
 

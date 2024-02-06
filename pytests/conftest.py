@@ -1,16 +1,9 @@
 import pytest
-import time
-
-import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as chromeService
 from selenium.webdriver.edge.service import Service as edgeService
 from selenium.webdriver.firefox.service import Service as firefoxService
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions
-
 from selenium.webdriver.support.wait import WebDriverWait
-import logging
 
 
 def pytest_addoption(parser):
