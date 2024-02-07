@@ -15,7 +15,11 @@ class WordlePage(BasePageClass):
     close_button = (By.CSS_SELECTOR, "button[aria-label='Close']")
 
     # WORDLE
-    guess_grid_rows = (By.CSS_SELECTOR, ".Row-module_row__pwpBq")
+    wordle_main = (By.ID, "wordle-app-game")
+    wordle_board = (By.CSS_SELECTOR, ".Board-module_boardContainer__TBHNL")
+    # wordle_board = (By.CSS_SELECTOR, ".Board-module_board__jeoPS")
+    keyboard = (By.CSS_SELECTOR, "div[aria-label='Keyboard']")
+
 
     def get_guess_grid_array(self):
         grid = []
