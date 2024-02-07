@@ -9,18 +9,17 @@ class TestFrontPage(BaseTestClass):
 
     def test_all_games_present_in_dashboard(self):
         # logger = self.get_logger()
-        # logger.debug("Does the logger work correctly?")
         homepage = HomePage(self.driver)
         assert (len(homepage.get_page_objects_list(HomePage.dashboard_games_list)) ==
                 self.expected_num_of_games_in_dashboard), "There should be 7 Games in the dashboard"
 
     def test_all_buttons_present_in_menu(self):
         homepage = HomePage(self.driver)
-        homepage.get_page_object(HomePage.navigation_menu).click()
+        homepage.get_page_object(HomePage.navigation_menu_button).click()
         assert (len(homepage.get_page_objects_list(HomePage.navigation_menu_buttons_list)) ==
                 self.expected_num_of_navigation_menu_buttons), "There should be 16 buttons in the navigation menu"
 
-    # Check presence of the nyt logo
+    # Check clickability of the nyt logo
     def test_nyt_logo_present(self):
         homepage = HomePage(self.driver)
         logger = self.get_logger()
@@ -29,11 +28,25 @@ class TestFrontPage(BaseTestClass):
         except:
             logger.error("NYT logo couldn't be clicked")
         finally:
-            #logger.info(self.driver.current_url)
-            assert self.driver.current_url == "https://www.nytimes.com/crosswords",\
-                                                "Clicking the NYT logo took us to a different page"
+            # logger.info(self.driver.current_url)
+            assert self.driver.current_url == "https://www.nytimes.com/crosswords", \
+                "Clicking the NYT logo took us to a different page"
 
-    # Click menu multiple times and check it appears and dissapears as intended
+    # Click menu multiple times and check it appears and disappears as intended
+
+    def test_navigation_menu_collapsibility(self):
+        homepage = HomePage(self.driver)
+        #logger = self.get_logger()
+        assert (homepage.get_page_object(HomePage.navigation_menu_drawer).get_attribute("aria-hidden")
+                == "true"), "Navigation menu drawer should start off as hidden"
+        for count in range(5):
+            homepage.get_page_object(HomePage.navigation_menu_button).click()
+            if count % 2 == 0:
+                assert (homepage.get_page_object(HomePage.navigation_menu_drawer).get_attribute("aria-hidden")
+                        == "false"), "Navigation menu drawer failed to appear after pressing navigation menu button"
+            elif count % 2 == 1:
+                assert (homepage.get_page_object(HomePage.navigation_menu_drawer).get_attribute("aria-hidden")
+                        == "true"), "Navigation menu drawer failed to hide after pressing navigation menu button"
 
     # Find the "NEW" tag if it exists, and Log what item it refers to
 

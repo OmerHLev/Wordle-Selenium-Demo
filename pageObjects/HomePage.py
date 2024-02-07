@@ -6,7 +6,8 @@ class HomePage(BasePageClass):
 
     # HEAD
     logo = (By.CSS_SELECTOR, ".pz-nav__logo")
-    navigation_menu = (By.CSS_SELECTOR, ".pz-nav__hamburger-box")
+    navigation_menu_button = (By.CSS_SELECTOR, ".pz-nav__hamburger-box")
+    navigation_menu_drawer = (By.ID, "js-nav-drawer")
     subscribe_buttons_list = (By.CSS_SELECTOR, ".pz-nav__button.default.js-nav-subscribe.pz-hide-sub")
                             # First one is in the dashboard, seconed in the navigation collapsable menu
     login_buttons_list = (By.CSS_SELECTOR, ".js-nav-login")  # First one is in the dashboard,
