@@ -11,13 +11,17 @@ class TestFrontPage(BaseTestClass):
         # logger = self.get_logger()
         homepage = HomePage(self.driver)
         assert (len(homepage.get_page_objects_list(HomePage.dashboard_games_list)) ==
-                self.expected_num_of_games_in_dashboard), "There should be 7 Games in the dashboard"
+                self.expected_num_of_games_in_dashboard), (f"There should be "
+                                                           f"{self.expected_num_of_games_in_dashboard}"
+                                                           f" Games in the dashboard")
 
     def test_all_buttons_present_in_menu(self):
         homepage = HomePage(self.driver)
         homepage.get_page_object(HomePage.navigation_menu_button).click()
         assert (len(homepage.get_page_objects_list(HomePage.navigation_menu_buttons_list)) ==
-                self.expected_num_of_navigation_menu_buttons), "There should be 16 buttons in the navigation menu"
+                self.expected_num_of_navigation_menu_buttons), (f"There should be "
+                                                                f"{self.expected_num_of_navigation_menu_buttons} "
+                                                                f"buttons in the navigation menu")
 
     # Check clickability of the nyt logo
     def test_nyt_logo_present(self):
@@ -43,10 +47,12 @@ class TestFrontPage(BaseTestClass):
             homepage.get_page_object(HomePage.navigation_menu_button).click()
             if count % 2 == 0:
                 assert (homepage.get_page_object(HomePage.navigation_menu_drawer).get_attribute("aria-hidden")
-                        == "false"), "Navigation menu drawer failed to appear after pressing navigation menu button"
+                        == "false"), (f"Navigation menu drawer failed to appear after "
+                                      f"pressing navigation menu button {count} times")
             elif count % 2 == 1:
                 assert (homepage.get_page_object(HomePage.navigation_menu_drawer).get_attribute("aria-hidden")
-                        == "true"), "Navigation menu drawer failed to hide after pressing navigation menu button"
+                        == "true"), (f"Navigation menu drawer failed to hide after"
+                                     f" pressing navigation menu button {count} times")
 
     # Find the "NEW" tag if it exists, and Log what item it refers to
 
