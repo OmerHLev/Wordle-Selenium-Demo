@@ -42,3 +42,218 @@
 2024-02-07 18:08:18,255: DEBUG: test_wordle_case_1: 4th letter, E
 2024-02-07 18:09:23,518: DEBUG: test_wordle_case_1: 4th letter, E
 2024-02-07 18:10:28,924: DEBUG: test_wordle_case_1: 4th letter, E
+2024-02-08 09:04:11,810: DEBUG: test_wordle_case_1: tbd
+2024-02-08 09:04:11,835: DEBUG: test_wordle_case_1: tbd
+2024-02-08 09:04:11,851: DEBUG: test_wordle_case_1: tbd
+2024-02-08 09:04:11,877: DEBUG: test_wordle_case_1: tbd
+2024-02-08 09:04:11,910: DEBUG: test_wordle_case_1: tbd
+2024-02-08 09:05:18,119: DEBUG: test_wordle_case_1: absent
+2024-02-08 09:05:18,135: DEBUG: test_wordle_case_1: present
+2024-02-08 09:05:18,166: DEBUG: test_wordle_case_1: absent
+2024-02-08 09:05:18,181: DEBUG: test_wordle_case_1: present
+2024-02-08 09:05:18,213: DEBUG: test_wordle_case_1: absent
+2024-02-08 09:06:13,080: DEBUG: test_wordle_case_1: absent
+2024-02-08 09:06:13,096: DEBUG: test_wordle_case_1: present
+2024-02-08 09:06:13,127: DEBUG: test_wordle_case_1: absent
+2024-02-08 09:06:13,143: DEBUG: test_wordle_case_1: present
+2024-02-08 09:06:13,174: DEBUG: test_wordle_case_1: absent
+2024-02-08 11:42:34,045: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:34,590: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:34,590: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:35,119: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:35,119: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:35,119: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:35,658: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:35,658: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:35,658: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:35,658: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:36,257: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:36,257: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:36,257: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:36,257: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:36,257: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:36,828: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:36,828: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:36,828: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:36,828: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:36,828: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:36,828: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,368: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,368: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,368: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,368: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,368: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,368: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,368: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,909: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,909: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,909: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,909: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,909: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,909: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,909: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:37,909: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,446: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,446: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,446: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,446: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,446: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,446: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,446: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,446: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,446: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,981: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,981: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,981: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,981: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,981: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,981: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,981: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,981: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,981: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:38,981: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:39,518: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:39,518: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:39,518: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:39,518: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:39,518: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:39,518: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:39,518: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:39,518: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:39,518: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:39,518: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:39,518: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,069: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:40,605: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,141: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:41,689: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,221: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:42,757: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,311: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:42:43,843: INFO: __call__: 4th letter, empty
+2024-02-08 11:43:30,891: DEBUG: test_wordle_case_1: absent
+2024-02-08 11:43:30,914: DEBUG: test_wordle_case_1: present
+2024-02-08 11:43:30,939: DEBUG: test_wordle_case_1: absent
+2024-02-08 11:43:30,955: DEBUG: test_wordle_case_1: present
+2024-02-08 11:43:30,987: DEBUG: test_wordle_case_1: absent
+2024-02-08 11:56:18,439: DEBUG: test_wordle_case_1: ???
+2024-02-08 11:57:30,320: DEBUG: test_wordle_case_1: About to execute wait
+2024-02-08 11:57:30,345: DEBUG: __call__: Wait executing
+2024-02-08 11:57:35,880: DEBUG: __call__: Wait executing
+2024-02-08 11:57:35,880: DEBUG: __call__: Wait executing
