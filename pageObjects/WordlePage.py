@@ -19,16 +19,8 @@ class WordlePage(BasePageClass):
     wordle_board = (By.CSS_SELECTOR, ".Board-module_boardContainer__TBHNL")
     # wordle_board = (By.CSS_SELECTOR, ".Board-module_board__jeoPS")
     keyboard = (By.CSS_SELECTOR, "div[aria-label='Keyboard']")
+    cells = (By.CSS_SELECTOR, "div[aria-roledescription = 'tile']")
 
 
-    def get_guess_grid_array(self):
-        grid = []
-        for row_count in range(self.number_rows):
-            row = []
-            letters = self.driver.find_elements(By.CSS_SELECTOR, f"div[aria-label='Row {row_count+1}'] div div")
-            for letter in range(self.number_letters):
-                row.append(letters[letter])
-            grid.append(row)
 
-        return grid
 

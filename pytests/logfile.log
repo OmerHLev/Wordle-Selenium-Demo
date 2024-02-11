@@ -257,3 +257,25 @@
 2024-02-08 11:57:30,345: DEBUG: __call__: Wait executing
 2024-02-08 11:57:35,880: DEBUG: __call__: Wait executing
 2024-02-08 11:57:35,880: DEBUG: __call__: Wait executing
+2024-02-11 16:31:40,578: DEBUG: test_wordle_case_2: None
+2024-02-11 16:36:22,228: DEBUG: test_wordle_case_2: None
+2024-02-11 16:42:30,462: DEBUG: test_wordle_case_2: None
+2024-02-11 16:42:30,542: DEBUG: test_wordle_case_2: None
+2024-02-11 16:43:09,364: DEBUG: test_wordle_case_2: 1st letter, W
+2024-02-11 16:43:09,385: DEBUG: test_wordle_case_2: 1st letter, W
+2024-02-11 16:44:11,157: DEBUG: test_wordle_case_2: 1st letter, W
+2024-02-11 16:44:11,177: DEBUG: test_wordle_case_2: 1st letter, W
+2024-02-11 16:44:37,439: DEBUG: test_wordle_case_2: 1st letter, empty
+2024-02-11 16:44:37,571: DEBUG: test_wordle_case_2: 1st letter, empty
+2024-02-11 16:48:49,940: INFO: test_wordle_case_2: sending keys to a cell fails
+2024-02-11 17:08:36,876: DEBUG: test_wordle_case_2: I'm about to send keys
+2024-02-11 17:08:36,890: DEBUG: test_wordle_case_2: I sent keys
+2024-02-11 17:21:43,530: DEBUG: test_wordle_case_2: 1
+2024-02-11 17:21:43,618: DEBUG: test_wordle_case_2: 2
+2024-02-11 17:21:43,638: DEBUG: test_wordle_case_2: 3
+2024-02-11 17:22:21,250: DEBUG: test_wordle_case_2: 3
+2024-02-11 17:23:08,283: DEBUG: test_wordle_case_2: 3
+2024-02-11 17:23:08,299: DEBUG: test_wordle_case_2: 4
+2024-02-11 17:27:05,505: DEBUG: test_wordle_case_2: 3
+2024-02-11 17:30:03,558: DEBUG: test_wordle_case_2: 3
+2024-02-11 17:30:03,604: DEBUG: test_wordle_case_2: 4
