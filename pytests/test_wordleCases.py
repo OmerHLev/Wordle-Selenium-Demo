@@ -26,14 +26,13 @@ class TestFrontPage(BaseTestClass):
         wordlepage.get_page_object(WordlePage.close_button).click()
         # SEND KEYS
         self.wait.until(waitForAttribute(WordlePage.cells, 0,
-                                         "aria-label", "1st letter, empty"))
+                        "aria-label", wordlepage.aria_label_constructor(1, "empty")))
         actions = ActionChains(self.driver)
         actions.send_keys("rates")
-        actions.send_keys(Keys.ENTER)
         actions.perform()
         # WAIT FOR KEYS
-        self.wait.until(waitForAttribute(WordlePage.cells, 3,
-                                         "aria-label", "4th letter, E"))
-
+        self.wait.until(waitForAttribute(WordlePage.cells, 4,
+                        "aria-label", wordlepage.aria_label_constructor(5, "S")))
         # ASSERT KEYS
-        assert wordlepage.get_page_objects_list(WordlePage.cells)[3].get_attribute("aria-label") == "4th letter, E"
+        assert (wordlepage.get_page_objects_list(WordlePage.cells)[3].get_attribute("aria-label") ==
+                wordlepage.aria_label_constructor(4, "E"))

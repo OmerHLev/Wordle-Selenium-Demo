@@ -279,3 +279,5 @@
 2024-02-11 17:27:05,505: DEBUG: test_wordle_case_2: 3
 2024-02-11 17:30:03,558: DEBUG: test_wordle_case_2: 3
 2024-02-11 17:30:03,604: DEBUG: test_wordle_case_2: 4
+2024-02-11 17:41:30,397: DEBUG: test_wordle_case_1: None
+2024-02-11 17:42:15,378: DEBUG: test_wordle_case_1: 1st letter, E

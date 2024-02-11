@@ -21,6 +21,19 @@ class WordlePage(BasePageClass):
     keyboard = (By.CSS_SELECTOR, "div[aria-label='Keyboard']")
     cells = (By.CSS_SELECTOR, "div[aria-roledescription = 'tile']")
 
+    def aria_label_constructor(self,slot,letter):
+        label = f"{slot}"
+        if slot == 1:
+            label += "st"
+        elif slot == 2:
+            label += "nd"
+        elif slot == 3:
+            label += "rd"
+        else:
+            label += "th"
+        label += f" letter, {letter}"
+        return label
+
 
 
 
