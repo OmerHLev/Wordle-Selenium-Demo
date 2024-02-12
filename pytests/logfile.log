@@ -281,3 +281,70 @@
 2024-02-11 17:30:03,604: DEBUG: test_wordle_case_2: 4
 2024-02-11 17:41:30,397: DEBUG: test_wordle_case_1: None
 2024-02-11 17:42:15,378: DEBUG: test_wordle_case_1: 1st letter, E
+2024-02-12 11:00:39,223: DEBUG: test_wordle_case_1: R
+2024-02-12 11:00:46,740: DEBUG: test_wordle_case_1: S
+2024-02-12 11:00:46,740: DEBUG: test_wordle_case_1: S
+2024-02-12 11:02:23,208: DEBUG: test_wordle_case_1: RATES
+2024-02-12 11:02:32,347: DEBUG: test_wordle_case_1: SCARE
+2024-02-12 11:02:32,347: DEBUG: test_wordle_case_1: SCARE
+2024-02-12 11:04:33,014: DEBUG: test_wordle_case_1: RATES
+2024-02-12 11:04:45,668: DEBUG: test_wordle_case_1: SCARE
+2024-02-12 11:04:45,668: DEBUG: test_wordle_case_1: SCARE
+2024-02-12 11:06:10,734: DEBUG: test_wordle_case_1: RATES
+2024-02-12 11:06:26,517: DEBUG: test_wordle_case_1: SCARE
+2024-02-12 11:06:26,517: DEBUG: test_wordle_case_1: SCARE
+2024-02-12 11:08:16,126: DEBUG: test_wordle_case_1: I ran once
+2024-02-12 11:08:25,541: DEBUG: test_wordle_case_1: I ran once
+2024-02-12 11:08:25,541: DEBUG: test_wordle_case_1: I ran once
+2024-02-12 11:12:21,051: DEBUG: test_wordle_case_1: I ran once
+2024-02-12 11:12:30,230: DEBUG: test_wordle_case_1: I ran once
+2024-02-12 11:12:30,230: DEBUG: test_wordle_case_1: I ran once
+2024-02-12 11:14:49,196: DEBUG: test_wordle_case_1: I ran once
+2024-02-12 11:54:33,457: INFO: test_wordle_case_1: Going to Wordle page
+2024-02-12 11:54:34,883: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-02-12 11:54:35,441: INFO: test_wordle_case_1: Typing 'RATES' into wordle
+2024-02-12 11:54:35,469: INFO: test_wordle_case_1: Waiting for the last cell to load in the appropriate character
+2024-02-12 11:54:35,484: INFO: test_wordle_case_1: Verifying that the 4th cell received the correct character
+2024-02-12 11:54:43,664: INFO: test_wordle_case_1: Going to Wordle page
+2024-02-12 11:54:43,664: INFO: test_wordle_case_1: Going to Wordle page
+2024-02-12 11:54:44,717: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-02-12 11:54:44,717: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-02-12 11:54:45,300: INFO: test_wordle_case_1: Typing 'SCARE' into wordle
+2024-02-12 11:54:45,300: INFO: test_wordle_case_1: Typing 'SCARE' into wordle
+2024-02-12 11:54:45,347: INFO: test_wordle_case_1: Waiting for the last cell to load in the appropriate character
+2024-02-12 11:54:45,347: INFO: test_wordle_case_1: Waiting for the last cell to load in the appropriate character
+2024-02-12 11:54:45,378: INFO: test_wordle_case_1: Verifying that the 4th cell received the correct character
+2024-02-12 11:54:45,378: INFO: test_wordle_case_1: Verifying that the 4th cell received the correct character
+2024-02-12 11:58:12,152: INFO: test_wordle_case_1: Going to Wordle page
+2024-02-12 11:58:14,666: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-02-12 11:58:14,685: INFO: test_wordle_case_1: Typing 'RATES' into wordle
+2024-02-12 11:58:14,702: INFO: test_wordle_case_1: Waiting for the last cell to load in the appropriate character
+2024-02-12 11:58:14,715: INFO: test_wordle_case_1: Verifying that the 4th cell received the correct character
+2024-02-12 11:58:22,941: INFO: test_wordle_case_1: Going to Wordle page
+2024-02-12 11:58:22,941: INFO: test_wordle_case_1: Going to Wordle page
+2024-02-12 11:58:25,493: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-02-12 11:58:25,493: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-02-12 11:58:25,511: INFO: test_wordle_case_1: Typing 'SCARE' into wordle
+2024-02-12 11:58:25,511: INFO: test_wordle_case_1: Typing 'SCARE' into wordle
+2024-02-12 11:58:25,528: INFO: test_wordle_case_1: Waiting for the last cell to load in the appropriate character
+2024-02-12 11:58:25,528: INFO: test_wordle_case_1: Waiting for the last cell to load in the appropriate character
+2024-02-12 11:58:25,541: INFO: test_wordle_case_1: Verifying that the 4th cell received the correct character
+2024-02-12 11:58:25,541: INFO: test_wordle_case_1: Verifying that the 4th cell received the correct character
+2024-02-12 12:02:22,120: INFO: test_wordle_case_1: Going to Wordle page
+2024-02-12 12:02:23,441: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-02-12 12:02:23,997: INFO: test_wordle_case_1: Typing 'RATES' into wordle
+2024-02-12 12:02:24,013: INFO: test_wordle_case_1: Waiting for the last cell to load in the appropriate character
+2024-02-12 12:02:24,026: INFO: test_wordle_case_1: Verifying that the 4th cell received the correct character
+2024-02-12 12:02:24,038: INFO: test_wordle_case_1: ---------------------
+2024-02-12 12:02:32,220: INFO: test_wordle_case_1: Going to Wordle page
+2024-02-12 12:02:32,220: INFO: test_wordle_case_1: Going to Wordle page
+2024-02-12 12:02:33,228: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-02-12 12:02:33,228: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-02-12 12:02:33,856: INFO: test_wordle_case_1: Typing 'SCARE' into wordle
+2024-02-12 12:02:33,856: INFO: test_wordle_case_1: Typing 'SCARE' into wordle
+2024-02-12 12:02:33,903: INFO: test_wordle_case_1: Waiting for the last cell to load in the appropriate character
+2024-02-12 12:02:33,903: INFO: test_wordle_case_1: Waiting for the last cell to load in the appropriate character
+2024-02-12 12:02:33,950: INFO: test_wordle_case_1: Verifying that the 4th cell received the correct character
+2024-02-12 12:02:33,950: INFO: test_wordle_case_1: Verifying that the 4th cell received the correct character
+2024-02-12 12:02:33,982: INFO: test_wordle_case_1: ---------------------
+2024-02-12 12:02:33,982: INFO: test_wordle_case_1: ---------------------

@@ -12,7 +12,7 @@ def pytest_addoption(parser):
     )
 
 
-@pytest.fixture(scope="class")
+@pytest.fixture()
 def setup(request):
     browser_name = request.config.getoption("browser_name")
     #Replace code duplication with getDriver function
