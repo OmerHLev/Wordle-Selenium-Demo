@@ -27,6 +27,7 @@ class TestFrontPage(BaseTestClass):
         # SEND KEYS
         self.wait.until(waitForAttribute(WordlePage.cells, 0,
                         "aria-label", wordlepage.aria_label_constructor(1, "empty")))
+        # TODO: move to function
         actions = ActionChains(self.driver)
         actions.send_keys("rates")
         actions.perform()

@@ -23,6 +23,7 @@ class WordlePage(BasePageClass):
 
     def aria_label_constructor(self,slot,letter):
         label = f"{slot}"
+        # TODO: MATCH CASE INSTEAD OF ELSE IF
         if slot == 1:
             label += "st"
         elif slot == 2:
