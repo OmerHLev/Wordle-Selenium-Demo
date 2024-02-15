@@ -16,7 +16,7 @@ def pytest_addoption(parser):
     )
 
 
-@pytest.fixture()
+@pytest.fixture(scope="class")
 def setup(request):
     browser_name = request.config.getoption("browser_name")
     driver = invoke_browser(browser_name)

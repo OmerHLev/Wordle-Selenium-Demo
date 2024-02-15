@@ -8,7 +8,6 @@ class TestFrontPage(BaseTestClass):
     expected_num_of_navigation_menu_buttons = 16
 
     def test_all_games_present_in_dashboard(self):
-        # logger = self.get_logger()
         homepage = HomePage(self.driver)
         assert (len(homepage.get_page_objects_list(HomePage.dashboard_games_list)) ==
                 self.expected_num_of_games_in_dashboard), (f"There should be "
@@ -26,11 +25,11 @@ class TestFrontPage(BaseTestClass):
     # Check clickability of the nyt logo
     def test_nyt_logo_present(self):
         homepage = HomePage(self.driver)
-        logger = self.get_logger()
+
         try:
             homepage.get_page_object(HomePage.logo).click()
         except:
-            logger.error("NYT logo couldn't be clicked")
+            self.logger.error("NYT logo couldn't be clicked")
         finally:
             # logger.info(self.driver.current_url)
             assert self.driver.current_url == "https://www.nytimes.com/crosswords", \
@@ -40,7 +39,6 @@ class TestFrontPage(BaseTestClass):
 
     def test_navigation_menu_collapsibility(self):
         homepage = HomePage(self.driver)
-        #logger = self.get_logger()
         assert (homepage.get_page_object(HomePage.navigation_menu_drawer).get_attribute("aria-hidden")
                 == "true"), "Navigation menu drawer should start off as hidden"
         for count in range(5):
