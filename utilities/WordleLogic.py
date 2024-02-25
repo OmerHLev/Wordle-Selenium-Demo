@@ -4,11 +4,11 @@ from utilities import Constants
 
 class WordleLogic:
     def __init__(self):
-        self.unknowns = ([*string.ascii_uppercase])
+        self.untested_letters = ([*string.ascii_uppercase])
         self.cells = []
         for cell_position in range(Constants.WORD_LENGTH): self.cells.append(WordleCell(cell_position))
-        self.present =[]
-        self.known = []
+        self.present_letters =[]
+        self.known_letters = []
 
     def new_word(self, word, clues):
         position = 0
@@ -22,8 +22,8 @@ class WordleLogic:
         return curr_list
 
     def new_clue(self, letter,position,clue):
-        if letter in self.unknowns:
-            self.unknowns.remove(letter)
+        if letter in self.untested_letters:
+            self.untested_letters.remove(letter)
         match clue:
             case "absent":
                 if letter in self.cells[position].correct:
@@ -33,27 +33,26 @@ class WordleLogic:
             case "elsewhere":
                 if letter in self.cells[position].correct:
                     raise Exception("Letter said to be elsewhere but is registered as correct")
-                self.present = self.exclusive_append(self.present, letter)
+                self.present_letters = self.exclusive_append(self.present_letters, letter)
                 self.cells[position].incorrect = self.exclusive_append(self.cells[position].incorrect, letter)
             case "hit":
                 if letter in self.cells[position].incorrect:
                     raise Exception("Letter said to be correct but is registered as incorrect")
-                self.known = self.exclusive_append(self.known, letter)
-                self.present = self.exclusive_append(self.present, letter)
+                self.known_letters = self.exclusive_append(self.known_letters, letter)
+                self.present_letters = self.exclusive_append(self.present_letters, letter)
                 self.cells[position].correct = self.exclusive_append(self.cells[position].correct, letter)
     def check_word_to_guess(self,word):
         position = 0
-        guessable_flag = True
         for letter in word:
-            if letter in self.unknowns or letter in self.present:
+            if letter in self.untested_letters or letter in self.present_letters:
                 if letter not in self.cells[position].incorrect:
                     pass
                 else:
-                    guessable_flag = False
+                     return False
             else:
-                guessable_flag = False
+                 return False
             position += 1
-        return guessable_flag
+        return True
 
 
 class WordleCell:
@@ -69,13 +68,12 @@ def testing_temporary():
     wordle.new_word("POUND", ["absent", "absent", "elsewhere", "absent", "hit"])
     wordle.new_word("MILKY", ["absent", "elsewhere", "elsewhere", "absent", "absent"])
     wordle.new_word("MILKY", ["absent", "elsewhere", "elsewhere", "absent", "absent"])
-
     wordle.new_word("GUILD", ["absent", "hit", "hit", "hit", "hit"])
     print(wordle.check_word_to_guess("BUILD"))
     print(wordle.check_word_to_guess("FIGHT"))
-    print(wordle.unknowns)
-    print(wordle.known)
-    print(wordle.present)
+    print(wordle.untested_letters)
+    print(wordle.known_letters)
+    print(wordle.present_letters)
     print(wordle.cells[3].incorrect)
     print(wordle.cells[3].correct)
     print(wordle.cells[4].incorrect)

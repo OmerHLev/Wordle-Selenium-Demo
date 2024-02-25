@@ -6,9 +6,11 @@ from selenium.webdriver.edge.service import Service as edgeService
 from selenium.webdriver.firefox.service import Service as firefoxService
 from selenium.webdriver.support.wait import WebDriverWait
 from utilities.Logger import LoggerClass
+from contextlib import contextmanager
 
 IMPLICIT_WAIT_TIME = 5
 EXPLICIT_WAIT_TIME = 10
+
 
 def pytest_addoption(parser):
     parser.addoption(
@@ -16,18 +18,23 @@ def pytest_addoption(parser):
     )
 
 
-@pytest.fixture(scope="class")
-def setup(request):
+@contextmanager
+def setup_base(request):
     browser_name = request.config.getoption("browser_name")
     driver = invoke_browser(browser_name)
     wait = invoke_waits(driver,IMPLICIT_WAIT_TIME,EXPLICIT_WAIT_TIME)
     driver.get("https://www.nytimes.com/crosswords")
-    request.cls.logger = LoggerClass().logger_object
-    request.cls.driver = driver
-    request.cls.wait = wait
-    yield
-
+    yield driver, wait
     driver.close()
+
+@pytest.fixture(scope="function")
+def setup_insulated(request):
+    with setup_base(request) as result:
+        yield result
+@pytest.fixture(scope="session",autouse=True)
+def logger_fixture():
+    yield LoggerClass().logger_object
+
 
 def invoke_browser(browser_name):
     match browser_name:
@@ -52,6 +59,7 @@ def invoke_browser(browser_name):
             options = webdriver.ChromeOptions()
             options.add_argument('--headless')
             return webdriver.Chrome(service=service_obj, options=options)
+
 
 def invoke_waits(driver,imp_wait,exp_wait):
     driver.implicitly_wait(imp_wait)

@@ -22,6 +22,7 @@ class WordlePage(BasePageClass):
     cells = (By.CSS_SELECTOR, "div[aria-roledescription = 'tile']")
 
     def aria_label_constructor(self,slot,letter):
+        slot +=1
         label = f"{slot}"
         # TODO: MATCH CASE INSTEAD OF ELSE IF
         if slot == 1:
