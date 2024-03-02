@@ -1,25 +1,24 @@
 from utilities.BaseTestClass import BaseTestClass
 from selenium.webdriver.common.by import By
 from pageObjects.HomePage import HomePage
-
+from utilities import Constants
 
 class TestFrontPage(BaseTestClass):
-    expected_num_of_games_in_dashboard = 7
-    expected_num_of_navigation_menu_buttons = 16
+
 
     def test_all_games_present_in_dashboard(self):
         homepage = HomePage(self.driver)
         assert (len(homepage.get_page_objects_list(HomePage.dashboard_games_list)) ==
-                self.expected_num_of_games_in_dashboard), (f"There should be "
-                                                           f"{self.expected_num_of_games_in_dashboard}"
+                Constants.EXPECTED_NUM_OF_GAMES_IN_DASHBOARD), (f"There should be "
+                                                           f"{Constants.EXPECTED_NUM_OF_GAMES_IN_DASHBOARD}"
                                                            f" Games in the dashboard")
 
     def test_all_buttons_present_in_menu(self):
         homepage = HomePage(self.driver)
         homepage.get_page_object(HomePage.navigation_menu_button).click()
         assert (len(homepage.get_page_objects_list(HomePage.navigation_menu_buttons_list)) ==
-                self.expected_num_of_navigation_menu_buttons), (f"There should be "
-                                                                f"{self.expected_num_of_navigation_menu_buttons} "
+                Constants.EXPECTED_NUM_OF_NAVIGATION_MENU_BUTTONS), (f"There should be "
+                                                                f"{Constants.EXPECTED_NUM_OF_NAVIGATION_MENU_BUTTONS} "
                                                                 f"buttons in the navigation menu")
 
     # Check clickability of the nyt logo

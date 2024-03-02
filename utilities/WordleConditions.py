@@ -13,3 +13,14 @@ class waitForAttribute:
         else:
             return False
 
+class waitWordInfoLoaded:
+    def __init__(self, locator, locator_index):
+        self._locator = locator
+        self._locator_index = locator_index
+
+    def __call__(self, driver):
+        element = driver.find_elements(*self._locator)[self._locator_index]
+        if element.get_attribute("data_state") == "empty" or element.get_attribute("data_state") == "tbd":
+            return False
+        else:
+            return element
