@@ -1330,3 +1330,234 @@
 2024-03-01 17:45:02,800: INFO: insert_word: Waiting for the last cell to load in the appropriate character
 2024-03-01 17:45:02,815: INFO: insert_word: Verifying that the 4th cell received the correct character
 2024-03-01 17:45:05,838: INFO: test_wordle_case_1: ---------------------
+2024-03-05 07:52:45,823: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 07:52:46,753: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 07:52:47,376: INFO: insert_word: Typing 'RATES' into wordle
+2024-03-05 07:52:47,410: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:52:47,431: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:52:50,465: INFO: insert_word: Typing 'CAKED' into wordle
+2024-03-05 07:52:50,491: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:52:50,504: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:52:53,525: INFO: insert_word: Typing 'GLAZE' into wordle
+2024-03-05 07:52:53,545: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:52:53,562: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:52:56,584: INFO: test_wordle_case_1: ---------------------
+2024-03-05 07:53:08,053: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 07:53:09,269: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 07:53:09,819: INFO: insert_word: Typing 'SCARE' into wordle
+2024-03-05 07:53:09,838: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:53:09,864: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:53:12,900: INFO: insert_word: Typing 'FAKES' into wordle
+2024-03-05 07:53:12,920: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:53:12,935: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:53:15,957: INFO: test_wordle_case_1: ---------------------
+2024-03-05 07:54:22,129: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 07:54:23,365: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 07:54:23,955: INFO: insert_word: Typing 'RATES' into wordle
+2024-03-05 07:54:23,984: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:54:24,027: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:54:27,107: INFO: insert_word: Typing 'CAKED' into wordle
+2024-03-05 07:54:27,131: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:54:27,147: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:54:30,174: INFO: insert_word: Typing 'GLAZE' into wordle
+2024-03-05 07:54:30,199: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:54:30,215: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:54:33,239: INFO: test_wordle_case_1: ---------------------
+2024-03-05 07:54:39,045: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 07:54:40,248: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 07:54:40,808: INFO: insert_word: Typing 'SCARE' into wordle
+2024-03-05 07:54:40,826: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:54:40,841: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:54:43,869: INFO: insert_word: Typing 'FAKES' into wordle
+2024-03-05 07:54:43,888: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:54:43,905: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:54:46,933: INFO: test_wordle_case_1: ---------------------
+2024-03-05 07:55:23,442: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 07:55:24,661: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 07:55:25,234: INFO: insert_word: Typing 'RATES' into wordle
+2024-03-05 07:55:25,262: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:55:25,276: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:55:28,299: INFO: insert_word: Typing 'CAKED' into wordle
+2024-03-05 07:55:28,324: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:55:28,338: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:55:31,360: INFO: insert_word: Typing 'GLAZE' into wordle
+2024-03-05 07:55:31,405: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:55:31,440: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:55:40,350: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 07:55:41,614: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 07:55:42,168: INFO: insert_word: Typing 'SCARE' into wordle
+2024-03-05 07:55:42,209: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:55:42,228: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:55:45,253: INFO: insert_word: Typing 'FAKES' into wordle
+2024-03-05 07:55:45,289: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:55:45,308: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:59:39,883: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 07:59:41,144: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 07:59:41,712: INFO: insert_word: Typing 'RATES' into wordle
+2024-03-05 07:59:41,775: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:59:41,803: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:59:44,828: INFO: insert_word: Typing 'CAKED' into wordle
+2024-03-05 07:59:44,869: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:59:44,897: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:59:47,932: INFO: insert_word: Typing 'GLAZE' into wordle
+2024-03-05 07:59:47,975: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 07:59:48,007: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 07:59:51,041: INFO: test_wordle_case_1: ---------------------
+2024-03-05 07:59:57,962: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 07:59:59,953: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:00:00,529: INFO: insert_word: Typing 'SCARE' into wordle
+2024-03-05 08:00:00,555: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:00:00,573: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:00:03,623: INFO: insert_word: Typing 'FAKES' into wordle
+2024-03-05 08:00:03,656: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:00:03,670: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:00:06,693: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:02:51,994: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:02:52,979: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:02:53,552: INFO: insert_word: Typing 'RATES' into wordle
+2024-03-05 08:02:53,576: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:02:53,590: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:02:56,628: INFO: insert_word: Typing 'CAKED' into wordle
+2024-03-05 08:02:56,661: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:02:56,677: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:02:59,708: INFO: insert_word: Typing 'GLAZE' into wordle
+2024-03-05 08:02:59,745: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:02:59,767: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:03:02,809: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:03:14,318: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:03:15,713: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:03:16,384: INFO: insert_word: Typing 'SCARE' into wordle
+2024-03-05 08:03:16,420: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:03:16,447: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:03:19,486: INFO: insert_word: Typing 'FAKES' into wordle
+2024-03-05 08:03:19,520: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:03:19,554: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:03:22,594: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:07:47,497: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:07:48,656: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:07:49,338: INFO: insert_word: Typing 'RATES' into wordle
+2024-03-05 08:07:49,387: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:07:49,409: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:07:52,444: INFO: insert_word: Typing 'CAKED' into wordle
+2024-03-05 08:07:52,481: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:07:52,512: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:07:55,553: INFO: insert_word: Typing 'GLAZE' into wordle
+2024-03-05 08:07:55,590: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:07:55,624: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:07:58,673: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:08:00,364: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:08:07,302: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:08:07,847: INFO: insert_word: Typing 'SCARE' into wordle
+2024-03-05 08:08:07,888: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:08:07,910: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:08:10,962: INFO: insert_word: Typing 'FAKES' into wordle
+2024-03-05 08:08:11,009: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:08:11,039: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:08:14,072: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:11:17,660: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:11:19,384: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:11:19,981: INFO: insert_word: Typing 'RATES' into wordle
+2024-03-05 08:11:20,003: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:11:20,018: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:11:23,063: INFO: insert_word: Typing 'CAKED' into wordle
+2024-03-05 08:11:23,098: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:11:23,126: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:11:26,160: INFO: insert_word: Typing 'GLAZE' into wordle
+2024-03-05 08:11:26,197: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:11:26,219: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:11:29,269: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:11:54,370: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:11:56,012: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:11:56,598: INFO: insert_word: Typing 'SCARE' into wordle
+2024-03-05 08:11:56,677: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:11:56,836: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:11:59,893: INFO: insert_word: Typing 'FAKES' into wordle
+2024-03-05 08:11:59,924: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:11:59,948: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:12:02,984: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:13:32,108: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:13:33,237: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:13:33,789: INFO: insert_word: Typing 'RATES' into wordle
+2024-03-05 08:13:33,805: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:13:33,817: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:13:36,841: INFO: insert_word: Typing 'CAKED' into wordle
+2024-03-05 08:13:36,882: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:13:36,914: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:13:39,954: INFO: insert_word: Typing 'GLAZE' into wordle
+2024-03-05 08:13:39,991: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:13:40,018: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:13:43,049: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:13:48,881: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:13:50,510: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:13:51,086: INFO: insert_word: Typing 'SCARE' into wordle
+2024-03-05 08:13:51,104: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:13:51,127: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:13:54,149: INFO: insert_word: Typing 'FAKES' into wordle
+2024-03-05 08:13:54,189: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:13:54,220: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:13:57,263: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:16:04,588: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:16:05,843: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:16:06,384: INFO: insert_word: Typing 'RATES' into wordle
+2024-03-05 08:16:06,421: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:16:06,436: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:16:09,467: INFO: insert_word: Typing 'CAKED' into wordle
+2024-03-05 08:16:09,488: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:16:09,511: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:16:12,546: INFO: insert_word: Typing 'GLAZE' into wordle
+2024-03-05 08:16:12,585: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:16:12,601: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:16:15,626: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:16:28,012: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:16:29,328: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:16:29,925: INFO: insert_word: Typing 'SCARE' into wordle
+2024-03-05 08:16:29,945: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:16:29,964: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:16:32,992: INFO: insert_word: Typing 'FAKES' into wordle
+2024-03-05 08:16:33,029: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:16:33,050: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:16:36,081: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:19:31,481: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:19:32,843: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:19:33,398: INFO: insert_word: Typing 'RATES' into wordle
+2024-03-05 08:19:33,417: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:19:33,432: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:19:36,472: INFO: insert_word: Typing 'CAKED' into wordle
+2024-03-05 08:19:36,510: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:19:36,535: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:19:39,578: INFO: insert_word: Typing 'GLAZE' into wordle
+2024-03-05 08:19:39,618: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:19:39,643: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:19:42,676: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:19:52,346: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:19:53,936: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:19:54,542: INFO: insert_word: Typing 'SCARE' into wordle
+2024-03-05 08:19:54,569: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:19:54,586: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:19:57,622: INFO: insert_word: Typing 'FAKES' into wordle
+2024-03-05 08:19:57,659: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:19:57,686: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:20:00,719: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:24:55,680: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:24:55,680: ERROR: test_wordle_case_1: ?
+2024-03-05 08:24:56,936: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:24:57,501: INFO: insert_word: Typing 'RATES' into wordle
+2024-03-05 08:24:57,517: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:24:57,531: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:25:00,560: INFO: insert_word: Typing 'CAKED' into wordle
+2024-03-05 08:25:00,597: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:25:00,616: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:25:03,641: INFO: insert_word: Typing 'GLAZE' into wordle
+2024-03-05 08:25:03,679: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:25:03,700: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:25:06,734: INFO: test_wordle_case_1: ---------------------
+2024-03-05 08:25:12,756: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-05 08:25:12,756: ERROR: test_wordle_case_1: ?
+2024-03-05 08:25:14,134: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-05 08:25:14,680: INFO: insert_word: Typing 'SCARE' into wordle
+2024-03-05 08:25:14,699: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:25:14,712: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:25:17,745: INFO: insert_word: Typing 'FAKES' into wordle
+2024-03-05 08:25:17,778: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-05 08:25:17,816: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-05 08:25:20,856: INFO: test_wordle_case_1: ---------------------
