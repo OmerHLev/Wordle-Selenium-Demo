@@ -33,6 +33,7 @@ class TestWordleCase1(BaseTestClass):
         self.wordlepage.get_page_object(WordlePage.close_button).click()
         # SEND KEYS
         self.log.info("Waiting for the cells to load")
+        time.sleep(1) #TODO FIX THIS SHIT FOR FIREFOX
         self.wait.until(waitForAttribute(WordlePage.cells, 0,
                                          "aria-label",
                                          self.wordlepage.aria_label_constructor(0, "empty")))
