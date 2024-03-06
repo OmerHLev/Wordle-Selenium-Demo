@@ -7,9 +7,9 @@ from pageObjects.WordlePage import WordlePage
 from utilities.BaseTestClass import BaseTestClass
 from pageObjects.HomePage import HomePage
 from utilities.WordleConditions import waitForAttribute, waitWordInfoLoaded
+from projectData.wordleData import wordleData
 
-
-@pytest.mark.parametrize('words', [("RATES", "CAKED", "GLAZE"), ("SCARE", "FAKES")])
+@pytest.mark.parametrize('words', wordleData().getSets(2))
 @pytest.mark.current
 class TestWordleCase1(BaseTestClass):
     driver = None
