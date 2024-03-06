@@ -44,13 +44,17 @@ class WordleLogic:
                                 return False
                         pos += 1
         return True
-logic = WordleLogic("TEARY")
-print(logic.is_new_word_clues_valid("AAHEA", ["present", "absent", "absent", "present", "absent"]))
-print(logic.is_new_word_clues_valid("AATEA", ["present", "absent", "present", "present", "absent"]))
+
+
+"""logic = WordleLogic("TEARY")
+print(logic.is_new_word_clues_valid("ABOUT", ["present", "absent", "absent", "absent", "present"]))
+"""
+
+"""print(logic.is_new_word_clues_valid("AATEA", ["present", "absent", "present", "present", "absent"]))
 print(logic.is_new_word_clues_valid("TAHEA", ["correct", "absent", "absent", "present", "present"]))
 print(logic.is_new_word_clues_valid("AAHEA", ["present", "correct", "absent", "present", "absent"]))
 print(logic.is_new_word_clues_valid("GEEKY", ["absent", "correct", "absent", "absent", "correct"]))
-print(logic.is_new_word_clues_valid("AAAAA", ["absent", "absent", "correct", "absent", "absent"]))
+print(logic.is_new_word_clues_valid("AAAAA", ["absent", "absent", "correct", "absent", "absent"]))"""
 
 
 
