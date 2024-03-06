@@ -2280,3 +2280,45 @@
 2024-03-06 09:32:34,356: INFO: insert_word: Waiting for the last cell to load in the appropriate character
 2024-03-06 09:32:34,387: INFO: insert_word: Verifying that the 4th cell received the correct character
 2024-03-06 09:32:37,480: INFO: test_wordle_case_1: ---------------------
+2024-03-06 10:04:55,818: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-06 10:04:57,204: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-06 10:04:58,313: INFO: insert_word: Typing 'SMILE' into wordle
+2024-03-06 10:04:58,361: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:04:58,417: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:01,505: INFO: insert_word: Typing 'DEATH' into wordle
+2024-03-06 10:05:01,552: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:05:01,601: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:04,681: INFO: insert_word: Typing 'PARTS' into wordle
+2024-03-06 10:05:04,723: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:05:04,763: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:07,822: INFO: insert_word: Typing 'ABOUT' into wordle
+2024-03-06 10:05:07,853: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:05:07,881: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:10,926: INFO: insert_word: Typing 'SCORE' into wordle
+2024-03-06 10:05:10,971: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:05:11,010: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:14,080: INFO: insert_word: Typing 'KNOWS' into wordle
+2024-03-06 10:05:14,140: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:05:14,181: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:17,243: INFO: test_wordle_case_1: ---------------------
+2024-03-06 10:05:20,450: INFO: test_wordle_case_1: Going to Wordle page
+2024-03-06 10:05:22,270: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-06 10:05:23,336: INFO: insert_word: Typing 'THEIR' into wordle
+2024-03-06 10:05:23,417: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:05:23,463: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:26,512: INFO: insert_word: Typing 'THERE' into wordle
+2024-03-06 10:05:26,567: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:05:26,624: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:29,705: INFO: insert_word: Typing 'LOWER' into wordle
+2024-03-06 10:05:29,736: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:05:29,770: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:32,811: INFO: insert_word: Typing 'OXIDE' into wordle
+2024-03-06 10:05:32,856: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:05:32,904: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:35,984: INFO: insert_word: Typing 'STILL' into wordle
+2024-03-06 10:05:36,041: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:05:36,089: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:39,165: INFO: insert_word: Typing 'STEPS' into wordle
+2024-03-06 10:05:39,190: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-06 10:05:39,228: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-06 10:05:42,288: INFO: test_wordle_case_1: ---------------------
