@@ -13,16 +13,21 @@ def pytest_addoption(parser):
     parser.addoption(
         "--browser_name", action="store", default="chrome", help="chrome, firefox, edge or chrome_view"
     )
+    parser.addoption(
+        "--wordle_answer", action="store", default="RATES", help="The answer for "
+                                                                 "today's Wordle. 5 letters all capital"
+    )
 
 
 @contextmanager
 def setup_base(request):
     global driver
     browser_name = request.config.getoption("browser_name")
+    wordle_answer = request.config.getoption("wordle_answer")
     driver = invoke_browser(browser_name)
     wait = invoke_waits(driver,Constants.IMPLICIT_WAIT_TIME,Constants.EXPLICIT_WAIT_TIME)
     driver.get("https://www.nytimes.com/crosswords")
-    yield driver, wait
+    yield driver, wait, wordle_answer
     driver.close()
 
 @pytest.fixture(scope="function")

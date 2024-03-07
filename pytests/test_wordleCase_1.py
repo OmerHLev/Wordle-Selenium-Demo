@@ -1,5 +1,4 @@
 import time
-
 import pytest
 from selenium.webdriver import Keys
 from pageObjects.WordlePage import WordlePage
@@ -11,7 +10,7 @@ from utilities.Constants import WORD_LENGTH
 from utilities.WordleLogic import WordleLogic
 
 
-@pytest.mark.parametrize('words', wordleData().getSets(2))
+
 @pytest.mark.current
 class TestWordleCase1(BaseTestClass):
     driver = None
@@ -20,17 +19,18 @@ class TestWordleCase1(BaseTestClass):
     homepage = None
     log = None
     WordleLogic = None
+    wordle_answer = None
 
+    @pytest.mark.parametrize('words', wordleData().getSets(2))
     def test_wordle_case_1(self, words, logger_fixture, setup_insulated):
         # SETUP
-        self.driver, self.wait = setup_insulated
+        self.driver, self.wait, self.wordle_answer = setup_insulated
         self.wordlepage = WordlePage(self.driver)
         self.homepage = HomePage(self.driver)
         self.log = logger_fixture
         self.word_count = 0
 
-        # TODO: PARAMATERIZE DAILY
-        self.WordleLogic = WordleLogic("TEARY")
+        self.WordleLogic = WordleLogic(self.wordle_answer)
 
         # NAVIGATION
         self.log.info("Going to Wordle page")
@@ -47,7 +47,7 @@ class TestWordleCase1(BaseTestClass):
             self.insert_word(words[word_num], word_num)
             assert (self.WordleLogic.is_new_word_clues_valid(words[word_num], self.get_clues(word_num))), (
                 f"The clues given by wordle for the word {words[word_num]} were inconsistent"
-                f" with the word of the day")
+                f" with the word of the day: {self.wordle_answer}")
         self.log.info("---------------------")
 
     def insert_word(self, word, row):
@@ -68,5 +68,5 @@ class TestWordleCase1(BaseTestClass):
         clues = []
         for cell in range(WORD_LENGTH):
             clues.append(
-                self.driver.find_elements(*self.wordlepage.cells)[cell+row*WORD_LENGTH].get_attribute("data-state"))
+                self.wordlepage.get_page_objects_list(self.wordlepage.cells)[cell+row*WORD_LENGTH].get_attribute("data-state"))
         return clues
