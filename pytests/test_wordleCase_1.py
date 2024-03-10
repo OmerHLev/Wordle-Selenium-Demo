@@ -12,7 +12,6 @@ from utilities.WordleLogic import WordleLogic
 from selenium.webdriver.support import expected_conditions as EC
 
 
-
 @pytest.mark.current
 class TestWordleCases(BaseTestClass):
     driver = None
@@ -24,8 +23,8 @@ class TestWordleCases(BaseTestClass):
     wordle_answer = None
 
     @pytest.mark.order1
-    def test_find_daily_answer(self,logger_fixture,setup_insulated,daily_answer):
-        self.wordle_setup(setup_fixture=setup_insulated,logger_fixture=logger_fixture)
+    def test_find_daily_answer(self, logger_fixture, setup_insulated, daily_answer):
+        self.wordle_setup(setup_fixture=setup_insulated, logger_fixture=logger_fixture)
         self.log.info("Waiting for the cells to load")
         time.sleep(1)  # TODO FIX THIS SHIT FOR FIREFOX
         self.wait.until(waitForAttribute(WordlePage.cells, 0,
@@ -35,18 +34,23 @@ class TestWordleCases(BaseTestClass):
             self.insert_word("AAHED", guess)
         self.wait.until(EC.visibility_of_element_located(self.wordlepage.answer_pop))
         daily_answer["value"] = self.wordlepage.get_page_object(self.wordlepage.answer_pop).text
+        assert len(daily_answer["value"]) == WORD_LENGTH, (f"The answer collected from Wordle isn't "
+                                                           f"{WORD_LENGTH} characters long")
+        assert daily_answer["value"] == daily_answer["value"].upper(), ("The answer collected from Wordle isn't "
+                                                                        "all uppercase")
 
     @pytest.mark.parametrize('words', wordleData().getSets(2))
     def test_wordle_case_1(self, words, logger_fixture, setup_insulated, daily_answer):
         self.wordle_answer = daily_answer["value"]
         self.WordleLogic = WordleLogic(self.wordle_answer)
-        self.wordle_setup(setup_fixture=setup_insulated,logger_fixture=logger_fixture)
+        self.wordle_setup(setup_fixture=setup_insulated, logger_fixture=logger_fixture)
         # SEND KEYS
         self.log.info("Waiting for the cells to load")
         time.sleep(1)  # TODO FIX THIS SHIT FOR FIREFOX
         self.wait.until(waitForAttribute(WordlePage.cells, 0,
                                          "aria-label",
                                          self.wordlepage.aria_label_constructor(0, "empty")))
+        # TODO: Add the case in which we guess correctly
         for word_num in range(len(words)):
             self.insert_word(words[word_num], word_num)
             assert (self.WordleLogic.is_new_word_clues_valid(words[word_num], self.get_clues(word_num))), (
@@ -72,10 +76,11 @@ class TestWordleCases(BaseTestClass):
         clues = []
         for cell in range(WORD_LENGTH):
             clues.append(
-                self.wordlepage.get_page_objects_list(self.wordlepage.cells)[cell+row*WORD_LENGTH].get_attribute("data-state"))
+                self.wordlepage.get_page_objects_list(self.wordlepage.cells)[cell + row * WORD_LENGTH].get_attribute(
+                    "data-state"))
         return clues
 
-    def wordle_setup(self,setup_fixture,logger_fixture):
+    def wordle_setup(self, setup_fixture, logger_fixture):
         # SETUP
         self.driver, self.wait = setup_fixture
         self.wordlepage = WordlePage(self.driver)
