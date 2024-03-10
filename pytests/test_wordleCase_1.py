@@ -1,3 +1,4 @@
+import string
 import time
 import pytest
 from selenium.webdriver import Keys
@@ -56,6 +57,8 @@ class TestWordleCases(BaseTestClass):
             assert (self.WordleLogic.is_new_word_clues_valid(words[word_num], self.get_clues(word_num))), (
                 f"The clues given by wordle for the word {words[word_num]} were inconsistent"
                 f" with the word of the day: {self.wordle_answer}")
+            assert self.WordleLogic.verify_keyboard_clues(self.get_wordle_keyboard_clues()), \
+                "The clues shown on the Wordle keyboard are inconsistent with the previous guesses"
         self.log.info("---------------------")
 
     def insert_word(self, word, row):
@@ -92,3 +95,14 @@ class TestWordleCases(BaseTestClass):
         self.homepage.get_page_objects_list(HomePage.dashboard_games_list)[1].click()
         self.wordlepage.get_page_object(WordlePage.play_button).click()
         self.wordlepage.get_page_object(WordlePage.close_button).click()
+
+    def get_wordle_keyboard_clues(self):
+        keyboard_dict = self.wordlepage.get_keyboard_dict()
+        clues_dict = {}
+        for letter in string.ascii_lowercase:
+            clue = self.wordlepage.get_page_object(keyboard_dict[letter]).get_attribute("aria-label")
+            if "add" in clue:
+                clues_dict[letter] = "add"
+            else:
+                clues_dict[letter] = clue[2:]
+        return clues_dict

@@ -64,7 +64,7 @@ def invoke_waits(driver,imp_wait,exp_wait):
     driver.implicitly_wait(imp_wait)
     return WebDriverWait(driver, exp_wait)
 
-@pytest.hookimpl(hookwrapper=True)
+"""@pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item):
     pytest_html = item.config.pluginmanager.getplugin('html')
     outcome = yield
@@ -84,7 +84,7 @@ def pytest_runtest_makereport(item):
 
 
 def _capture_screenshot(name):
-    driver.get_screenshot_as_file(name)
+    driver.get_screenshot_as_file(name)"""
 
 @pytest.fixture(scope="session")
 def daily_answer():
