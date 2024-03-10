@@ -21,6 +21,9 @@ class WordlePage(BasePageClass):
     keyboard = (By.CSS_SELECTOR, "div[aria-label='Keyboard']")
     cells = (By.CSS_SELECTOR, "div[aria-roledescription = 'tile']")
 
+    # ANSWER POP-UP
+    answer_pop = (By.CSS_SELECTOR, ".Toast-module_toast__iiVsN")
+
     def aria_label_constructor(self,slot,letter):
         slot +=1
         label = f"{slot}"

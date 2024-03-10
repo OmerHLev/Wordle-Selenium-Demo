@@ -7,6 +7,7 @@ class WordleLogic:
         self.answer = true_answer
         self.unique_letters_answer = list(set(self.answer))
 
+#TODO: Separate into functions for readability
     def is_new_word_clues_valid(self,word,clues):
         unique_letters = list(set(word))
         for letter_unique in unique_letters:

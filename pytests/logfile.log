@@ -2873,3 +2873,415 @@
 2024-03-07 08:47:24,521: INFO: insert_word: Waiting for the last cell to load in the appropriate character
 2024-03-07 08:47:24,543: INFO: insert_word: Verifying that the 4th cell received the correct character
 2024-03-07 08:47:27,705: INFO: test_wordle_case_1: ---------------------
+2024-03-10 08:16:35,604: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:16:36,469: INFO: test_find_daily_answer: Waiting for the cells to load
+2024-03-10 08:16:37,548: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:16:37,586: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:16:37,603: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:16:40,627: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:16:40,647: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:16:40,666: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:16:43,689: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:16:43,715: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:16:43,732: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:16:46,756: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:16:46,782: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:16:46,801: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:16:49,827: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:16:49,859: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:16:49,875: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:16:52,896: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:16:52,926: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:16:52,939: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:17:02,251: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:17:03,101: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:17:04,131: INFO: insert_word: Typing 'WHERE' into wordle
+2024-03-10 08:17:04,168: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:17:04,185: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:17:19,393: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:17:23,843: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:17:24,893: INFO: insert_word: Typing 'SHORT' into wordle
+2024-03-10 08:17:24,918: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:17:24,939: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:31:40,794: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:31:41,916: INFO: test_find_daily_answer: Waiting for the cells to load
+2024-03-10 08:31:42,962: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:31:42,999: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:31:43,020: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:31:46,076: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:31:46,093: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:31:46,107: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:31:49,128: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:31:49,151: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:31:49,164: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:31:52,186: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:31:52,216: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:31:52,231: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:31:55,253: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:31:55,282: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:31:55,296: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:31:58,320: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:31:58,344: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:31:58,357: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:32:17,044: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:32:18,392: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:32:19,423: INFO: insert_word: Typing 'GROUP' into wordle
+2024-03-10 08:32:19,448: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:32:19,468: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:32:37,190: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:32:37,973: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:32:39,007: INFO: insert_word: Typing 'METER' into wordle
+2024-03-10 08:32:39,030: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:32:39,056: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:44:27,775: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:44:28,865: INFO: test_find_daily_answer: Waiting for the cells to load
+2024-03-10 08:44:29,897: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:44:29,944: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:44:29,968: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:44:33,001: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:44:33,029: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:44:33,046: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:44:36,077: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:44:36,102: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:44:36,120: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:44:39,149: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:44:39,173: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:44:39,185: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:44:42,209: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:44:42,241: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:44:42,255: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:44:45,277: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:44:45,299: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:44:45,311: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:01,774: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:45:02,798: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:45:03,824: INFO: insert_word: Typing 'SPITE' into wordle
+2024-03-10 08:45:03,850: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:03,870: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:06,966: INFO: insert_word: Typing 'SHOWN' into wordle
+2024-03-10 08:45:06,983: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:06,996: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:10,079: INFO: insert_word: Typing 'POWER' into wordle
+2024-03-10 08:45:10,096: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:10,112: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:13,233: INFO: insert_word: Typing 'OTHER' into wordle
+2024-03-10 08:45:13,246: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:13,261: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:16,368: INFO: insert_word: Typing 'PAINT' into wordle
+2024-03-10 08:45:16,383: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:16,396: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:19,492: INFO: insert_word: Typing 'STILL' into wordle
+2024-03-10 08:45:19,507: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:19,518: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:22,626: INFO: test_wordle_case_1: ---------------------
+2024-03-10 08:45:28,694: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:45:29,842: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:45:30,889: INFO: insert_word: Typing 'FIRST' into wordle
+2024-03-10 08:45:30,916: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:30,936: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:34,050: INFO: insert_word: Typing 'ORGAN' into wordle
+2024-03-10 08:45:34,067: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:34,081: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:37,179: INFO: insert_word: Typing 'WHILE' into wordle
+2024-03-10 08:45:37,199: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:37,216: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:40,317: INFO: insert_word: Typing 'GROUP' into wordle
+2024-03-10 08:45:40,332: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:40,345: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:43,441: INFO: insert_word: Typing 'TEACH' into wordle
+2024-03-10 08:45:43,474: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:43,492: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:46,590: INFO: insert_word: Typing 'SHALL' into wordle
+2024-03-10 08:45:46,605: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:45:46,616: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:45:49,725: INFO: test_wordle_case_1: ---------------------
+2024-03-10 08:47:52,345: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:47:53,979: INFO: test_find_daily_answer: Waiting for the cells to load
+2024-03-10 08:47:55,041: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:47:55,084: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:47:55,125: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:47:58,213: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:47:58,259: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:47:58,298: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:48:01,373: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:48:01,406: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:48:01,448: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:48:04,538: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:48:04,570: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:48:04,601: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:48:07,656: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:48:07,708: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:48:07,757: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:48:10,835: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:48:10,882: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:48:10,928: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:48:31,085: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:48:32,320: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:48:33,375: INFO: insert_word: Typing 'MODEL' into wordle
+2024-03-10 08:48:33,411: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:48:33,446: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:48:36,816: INFO: insert_word: Typing 'UNDER' into wordle
+2024-03-10 08:48:36,874: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:48:36,939: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:48:40,245: INFO: insert_word: Typing 'KNOWN' into wordle
+2024-03-10 08:48:40,302: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:48:40,351: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:48:43,649: INFO: insert_word: Typing 'SUPRA' into wordle
+2024-03-10 08:48:43,698: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:48:43,739: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:48:47,018: INFO: insert_word: Typing 'WOULD' into wordle
+2024-03-10 08:48:47,067: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:48:47,109: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:48:50,377: INFO: insert_word: Typing 'NOISE' into wordle
+2024-03-10 08:48:50,417: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:48:50,457: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:48:53,758: INFO: test_wordle_case_1: ---------------------
+2024-03-10 08:49:05,765: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:49:07,377: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:49:08,462: INFO: insert_word: Typing 'THESE' into wordle
+2024-03-10 08:49:08,507: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:49:08,547: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:49:11,839: INFO: insert_word: Typing 'FJORD' into wordle
+2024-03-10 08:49:11,887: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:49:11,931: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:49:15,150: INFO: insert_word: Typing 'SHAPE' into wordle
+2024-03-10 08:49:15,183: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:49:15,215: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:49:18,470: INFO: insert_word: Typing 'SOLID' into wordle
+2024-03-10 08:49:18,519: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:49:18,568: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:49:21,846: INFO: insert_word: Typing 'MOTIF' into wordle
+2024-03-10 08:49:21,900: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:49:21,945: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:49:25,257: INFO: insert_word: Typing 'COULD' into wordle
+2024-03-10 08:49:25,314: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:49:25,362: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:49:28,682: INFO: test_wordle_case_1: ---------------------
+2024-03-10 08:50:14,267: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:50:22,422: INFO: test_find_daily_answer: Waiting for the cells to load
+2024-03-10 08:50:23,488: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:50:23,572: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:50:23,606: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:50:26,828: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:50:26,982: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:50:27,054: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:50:30,126: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:50:30,196: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:50:30,225: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:50:33,307: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:50:33,357: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:50:33,389: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:50:36,453: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:50:36,518: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:50:36,550: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:50:39,625: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:50:39,689: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:50:39,722: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:51:31,345: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:51:33,327: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:51:34,394: INFO: insert_word: Typing 'MEANS' into wordle
+2024-03-10 08:51:34,615: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:51:34,648: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:51:37,866: INFO: insert_word: Typing 'LARGE' into wordle
+2024-03-10 08:51:37,906: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:51:37,937: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:51:41,136: INFO: insert_word: Typing 'LIMIT' into wordle
+2024-03-10 08:51:41,203: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:51:41,234: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:51:44,454: INFO: insert_word: Typing 'MONEY' into wordle
+2024-03-10 08:51:44,523: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:51:44,551: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:51:47,758: INFO: insert_word: Typing 'FLOOD' into wordle
+2024-03-10 08:51:47,783: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:51:47,805: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:51:50,975: INFO: insert_word: Typing 'BEING' into wordle
+2024-03-10 08:51:51,002: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:51:51,031: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:51:54,232: INFO: test_wordle_case_1: ---------------------
+2024-03-10 08:52:09,603: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:55:38,955: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:55:41,697: INFO: test_find_daily_answer: Waiting for the cells to load
+2024-03-10 08:55:42,766: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:55:42,834: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:55:42,902: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:55:45,998: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:55:46,056: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:55:46,109: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:55:49,202: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:55:49,259: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:55:49,313: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:55:52,403: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:55:52,463: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:55:52,516: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:55:55,608: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:55:55,663: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:55:55,716: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:55:58,795: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:55:58,849: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:55:58,901: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:56:17,433: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:56:20,635: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:56:21,705: INFO: insert_word: Typing 'WORTH' into wordle
+2024-03-10 08:56:21,771: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:56:21,842: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:56:25,238: INFO: insert_word: Typing 'COVER' into wordle
+2024-03-10 08:56:25,299: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:56:25,352: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:56:28,689: INFO: insert_word: Typing 'SALES' into wordle
+2024-03-10 08:56:28,741: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:56:28,792: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:56:32,132: INFO: insert_word: Typing 'BEING' into wordle
+2024-03-10 08:56:32,185: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:56:32,235: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:56:35,573: INFO: insert_word: Typing 'BOXES' into wordle
+2024-03-10 08:56:35,632: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:56:35,684: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:56:39,062: INFO: insert_word: Typing 'QUICK' into wordle
+2024-03-10 08:56:39,118: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:56:39,169: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:56:42,520: INFO: test_wordle_case_1: ---------------------
+2024-03-10 08:56:48,799: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:56:50,213: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:56:51,270: INFO: insert_word: Typing 'BLADE' into wordle
+2024-03-10 08:56:51,315: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:56:51,358: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:56:54,690: INFO: insert_word: Typing 'OWNER' into wordle
+2024-03-10 08:56:54,748: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:56:54,797: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:56:58,135: INFO: insert_word: Typing 'TAKEN' into wordle
+2024-03-10 08:56:58,253: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:56:58,313: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:57:01,653: INFO: insert_word: Typing 'BRIEF' into wordle
+2024-03-10 08:57:01,713: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:57:01,762: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:57:05,092: INFO: insert_word: Typing 'SHALL' into wordle
+2024-03-10 08:57:05,149: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:57:05,206: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:57:08,532: INFO: insert_word: Typing 'COULD' into wordle
+2024-03-10 08:57:08,587: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:57:08,637: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:57:11,988: INFO: test_wordle_case_1: ---------------------
+2024-03-10 08:57:51,636: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:57:54,029: INFO: test_find_daily_answer: Waiting for the cells to load
+2024-03-10 08:57:55,103: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:57:55,180: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:57:55,238: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:57:58,347: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:57:58,413: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:57:58,466: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:58:01,550: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:58:01,616: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:58:01,672: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:58:04,775: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:58:04,844: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:58:04,897: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:58:08,004: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:58:08,097: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:58:08,166: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:58:11,261: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 08:58:11,327: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:58:11,381: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:58:23,448: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:58:25,675: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:58:26,753: INFO: insert_word: Typing 'SONGS' into wordle
+2024-03-10 08:58:26,832: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:58:26,903: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:58:30,293: INFO: insert_word: Typing 'OXIDE' into wordle
+2024-03-10 08:58:30,370: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:58:30,424: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:58:33,768: INFO: insert_word: Typing 'IMAGE' into wordle
+2024-03-10 08:58:33,832: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:58:33,885: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:58:37,305: INFO: insert_word: Typing 'WIDER' into wordle
+2024-03-10 08:58:37,369: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:58:37,426: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:58:40,770: INFO: insert_word: Typing 'FRONT' into wordle
+2024-03-10 08:58:40,833: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:58:40,888: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:58:44,231: INFO: insert_word: Typing 'EMPTY' into wordle
+2024-03-10 08:58:44,289: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:58:44,338: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:58:47,706: INFO: test_wordle_case_1: ---------------------
+2024-03-10 08:58:56,269: INFO: wordle_setup: Going to Wordle page
+2024-03-10 08:58:58,304: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 08:58:59,376: INFO: insert_word: Typing 'ORDER' into wordle
+2024-03-10 08:58:59,449: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:58:59,511: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:59:02,908: INFO: insert_word: Typing 'THEIR' into wordle
+2024-03-10 08:59:02,972: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:59:03,029: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:59:06,380: INFO: insert_word: Typing 'GROUP' into wordle
+2024-03-10 08:59:06,440: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:59:06,494: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:59:09,842: INFO: insert_word: Typing 'WOULD' into wordle
+2024-03-10 08:59:09,904: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:59:09,958: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:59:13,303: INFO: insert_word: Typing 'NEEDS' into wordle
+2024-03-10 08:59:13,362: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:59:13,418: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:59:16,760: INFO: insert_word: Typing 'NERVE' into wordle
+2024-03-10 08:59:16,821: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 08:59:16,876: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 08:59:20,233: INFO: test_wordle_case_1: ---------------------
+2024-03-10 09:00:06,289: INFO: wordle_setup: Going to Wordle page
+2024-03-10 09:00:07,851: INFO: test_find_daily_answer: Waiting for the cells to load
+2024-03-10 09:00:09,003: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 09:00:09,059: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:00:09,089: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:00:12,208: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 09:00:12,273: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:00:12,302: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:00:15,365: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 09:00:15,433: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:00:15,472: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:00:18,556: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 09:00:18,625: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:00:18,655: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:00:21,725: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 09:00:21,772: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:00:21,804: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:00:24,865: INFO: insert_word: Typing 'AAHED' into wordle
+2024-03-10 09:00:24,936: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:00:24,970: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:00:43,267: INFO: wordle_setup: Going to Wordle page
+2024-03-10 09:00:44,901: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 09:00:45,944: INFO: insert_word: Typing 'FOUND' into wordle
+2024-03-10 09:00:46,001: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:00:46,036: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:00:49,289: INFO: insert_word: Typing 'ARRAY' into wordle
+2024-03-10 09:00:49,320: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:00:49,346: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:00:52,541: INFO: insert_word: Typing 'BASIC' into wordle
+2024-03-10 09:00:52,600: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:00:52,628: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:00:55,854: INFO: insert_word: Typing 'OTHER' into wordle
+2024-03-10 09:00:55,940: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:00:55,970: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:00:59,168: INFO: insert_word: Typing 'CLEAR' into wordle
+2024-03-10 09:00:59,206: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:00:59,232: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:01:02,403: INFO: insert_word: Typing 'WHICH' into wordle
+2024-03-10 09:01:02,440: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:01:02,467: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:01:05,637: INFO: test_wordle_case_1: ---------------------
+2024-03-10 09:01:39,799: INFO: wordle_setup: Going to Wordle page
+2024-03-10 09:01:41,715: INFO: test_wordle_case_1: Waiting for the cells to load
+2024-03-10 09:01:42,760: INFO: insert_word: Typing 'FIELD' into wordle
+2024-03-10 09:01:42,817: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:01:42,847: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:01:46,141: INFO: insert_word: Typing 'BRIEF' into wordle
+2024-03-10 09:01:46,193: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:01:46,220: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:01:49,404: INFO: insert_word: Typing 'OPENS' into wordle
+2024-03-10 09:01:49,460: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:01:49,484: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:01:52,678: INFO: insert_word: Typing 'SEVEN' into wordle
+2024-03-10 09:01:52,748: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:01:52,776: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:01:55,980: INFO: insert_word: Typing 'FARMS' into wordle
+2024-03-10 09:01:56,027: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:01:56,055: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:01:59,238: INFO: insert_word: Typing 'HOTEL' into wordle
+2024-03-10 09:01:59,266: INFO: insert_word: Waiting for the last cell to load in the appropriate character
+2024-03-10 09:01:59,286: INFO: insert_word: Verifying that the 4th cell received the correct character
+2024-03-10 09:02:02,470: INFO: test_wordle_case_1: ---------------------
